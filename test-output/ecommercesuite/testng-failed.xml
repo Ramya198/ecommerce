@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ecommercesuite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.ecommerce.utilities.ExtendReportManager"/>
+  </listeners>
+  <test thread-count="5" name="TC_Logintest_001(failed)" parallel="tests">
+    <classes>
+      <class name="com.ecommerce.testcases.TC_Logintest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.ecommerce.testcases.TC_Logintest_001 -->
+    </classes>
+  </test> <!-- TC_Logintest_001(failed) -->
+  <test thread-count="5" name="TC_AdnwCust_003(failed)" parallel="tests">
+    <classes>
+      <class name="com.ecommerce.testcases.TC_AdnwCust_003">
+        <methods>
+          <include name="teardown"/>
+          <include name="addnewCust"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerce.testcases.TC_AdnwCust_003 -->
+    </classes>
+  </test> <!-- TC_AdnwCust_003(failed) -->
+</suite> <!-- Failed suite [ecommercesuite] -->

@@ -1,0 +1,480 @@
+2020-11-22 00:22:21 INFO  TC_Logintest_001:33 - This is debug : starting
+2020-11-22 00:22:28 INFO  TC_Logintest_001:36 - This is debug : ending
+2020-11-22 00:22:34 INFO  TC_Logintest_001:28 - ***validating TC_Logintest_001***
+2020-11-22 00:27:49 INFO  TC_Logintest_001:33 - This is debug : starting
+2020-11-22 00:27:55 INFO  TC_Logintest_001:36 - This is debug : ending
+2020-11-22 00:28:00 INFO  TC_Logintest_001:28 - ***validating TC_Logintest_001***
+2020-11-22 00:30:15 INFO  TC_Logintest_001:28 - ***validating TC_Logintest_001***
+2020-11-22 00:31:53 INFO  TC_Logintest_001:28 - ***validating TC_Logintest_001***
+2020-11-22 00:35:44 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2020-11-22 00:35:44 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-11-22 00:35:44 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-11-22 00:35:44 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38cee291
+2020-11-22 00:35:44 DEBUG PlatformDependent:1003 - Platform: Windows
+2020-11-22 00:35:44 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2020-11-22 00:35:44 DEBUG PlatformDependent0:852 - Java version: 8
+2020-11-22 00:35:44 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2020-11-22 00:35:44 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2020-11-22 00:35:44 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2020-11-22 00:35:44 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2020-11-22 00:35:44 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2020-11-22 00:35:44 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-11-22 00:35:44 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-11-22 00:35:44 DEBUG PlatformDependent:1046 - sun.misc.Unsafe: available
+2020-11-22 00:35:44 DEBUG PlatformDependent:1165 - -Dio.netty.tmpdir: C:\Users\prasa\AppData\Local\Temp (java.io.tmpdir)
+2020-11-22 00:35:44 DEBUG PlatformDependent:1244 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-11-22 00:35:44 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 926941184 bytes
+2020-11-22 00:35:44 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-11-22 00:35:44 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-11-22 00:35:44 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-11-22 00:35:44 DEBUG PlatformDependent:907 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-11-22 00:35:44 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-11-22 00:35:44 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-11-22 00:35:44 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-11-22 00:35:44 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-11-22 00:35:44 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-11-22 00:35:44 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-11-22 00:35:44 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@41488b16
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ac296f6
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7fd7a283
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@22f59fa
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78fa769e
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16612a51
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@54e041a4
+2020-11-22 00:35:44 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2c78324b
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-11-22 00:35:44 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-11-22 00:35:44 DEBUG ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+2020-11-22 00:35:44 DEBUG ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-11-22 00:35:44 DEBUG ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-11-22 00:35:46 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 8788 (auto-detected)
+2020-11-22 00:35:46 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-11-22 00:35:46 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-11-22 00:35:46 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-11-22 00:35:46 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-11-22 00:35:46 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 80:2b:f9:ff:fe:76:9b:09 (auto-detected)
+2020-11-22 00:35:46 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-11-22 00:35:46 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-11-22 00:35:46 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7ef4d38
+2020-11-22 00:35:46 DEBUG Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-11-22 00:35:46 DEBUG Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-11-22 00:35:46 DEBUG Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+2020-11-22 00:35:46 DEBUG Recycler:100 - -Dio.netty.recycler.ratio: 8
+2020-11-22 00:35:50 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x27dd9904d489fc0b
+2020-11-23 18:15:06 INFO  TC_Logintest_001:28 - ***validating TC_Logintest_001***
+2020-11-23 18:48:42 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+2020-11-23 18:48:42 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+2020-11-23 18:49:20 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2020-11-23 18:49:20 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-11-23 18:49:20 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-11-23 18:49:20 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38cee291
+2020-11-23 18:49:20 DEBUG PlatformDependent:1003 - Platform: Windows
+2020-11-23 18:49:20 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+2020-11-23 18:49:20 DEBUG PlatformDependent0:852 - Java version: 8
+2020-11-23 18:49:20 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+2020-11-23 18:49:20 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+2020-11-23 18:49:20 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+2020-11-23 18:49:20 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+2020-11-23 18:49:20 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+2020-11-23 18:49:20 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-11-23 18:49:20 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-11-23 18:49:20 DEBUG PlatformDependent:1046 - sun.misc.Unsafe: available
+2020-11-23 18:49:20 DEBUG PlatformDependent:1165 - -Dio.netty.tmpdir: C:\Users\prasa\AppData\Local\Temp (java.io.tmpdir)
+2020-11-23 18:49:20 DEBUG PlatformDependent:1244 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-11-23 18:49:20 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 926941184 bytes
+2020-11-23 18:49:20 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-11-23 18:49:20 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-11-23 18:49:20 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-11-23 18:49:20 DEBUG PlatformDependent:907 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-11-23 18:49:20 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-11-23 18:49:20 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-11-23 18:49:20 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-11-23 18:49:20 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-11-23 18:49:20 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-11-23 18:49:20 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-11-23 18:49:20 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68878f6d
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2eea88a1
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ac296f6
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7fd7a283
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@22f59fa
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78fa769e
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16612a51
+2020-11-23 18:49:20 TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@54e041a4
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-11-23 18:49:20 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-11-23 18:49:20 DEBUG ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+2020-11-23 18:49:20 DEBUG ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-11-23 18:49:20 DEBUG ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-11-23 18:49:21 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 11076 (auto-detected)
+2020-11-23 18:49:21 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-11-23 18:49:21 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-11-23 18:49:21 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-11-23 18:49:21 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-11-23 18:49:21 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 80:2b:f9:ff:fe:76:9b:09 (auto-detected)
+2020-11-23 18:49:21 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-11-23 18:49:21 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-11-23 18:49:21 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7cd18c1a
+2020-11-23 18:49:21 DEBUG Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-11-23 18:49:21 DEBUG Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-11-23 18:49:21 DEBUG Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+2020-11-23 18:49:21 DEBUG Recycler:100 - -Dio.netty.recycler.ratio: 8
+2020-11-23 18:49:25 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xd2d2e72e6f78bc08
+2020-11-23 18:49:28 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+2020-11-23 18:49:28 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+2020-11-23 19:01:19 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 19:01:19 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 19:45:37 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 19:45:37 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 19:50:39 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 19:50:39 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 19:57:24 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 19:57:24 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 19:57:40 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 19:57:40 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:01:44 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:01:44 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:02:01 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:02:01 INFO  TC_Logintest_001:35 - ***test case failed***
+ 2020-11-23 20:02:18 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:02:19 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:05:02 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:05:02 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:35:31 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:35:31 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:35:47 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:35:47 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:37:04 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:37:04 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:37:19 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:37:19 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:38:20 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:38:20 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:38:35 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:38:35 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-23 20:38:49 INFO  TC_Logintest_001:23 - ***validating TC_Logintest_001***
+ 2020-11-23 20:38:49 INFO  TC_Logintest_001:29 - *** Test cas is sucess***
+ 2020-11-24 01:11:13 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-11-24 01:11:13 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-11-25 01:33:16 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-11-25 01:33:16 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-11-25 01:33:29 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:33:29 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:33:29 INFO  TC_LoginDDT_002:56 - *******logintest failed*****
+ 2020-11-25 01:33:30 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:33:30 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:33:30 INFO  TC_LoginDDT_002:63 - *******logintest passed*****
+ 2020-11-25 01:33:42 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:33:42 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:33:42 INFO  TC_LoginDDT_002:63 - *******logintest passed*****
+ 2020-11-25 01:33:54 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:33:54 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:33:54 INFO  TC_LoginDDT_002:63 - *******logintest passed*****
+ 2020-11-25 01:40:18 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-11-25 01:40:18 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-11-25 01:40:31 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:40:31 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:40:31 INFO  TC_LoginDDT_002:58 - *******logintest failed*****
+ 2020-11-25 01:40:35 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:40:35 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:40:35 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 01:40:47 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:40:47 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:40:47 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 01:40:59 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:40:59 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:40:59 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 01:45:33 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-11-25 01:45:33 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-11-25 01:45:45 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:45:45 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:45:45 INFO  TC_LoginDDT_002:58 - *******logintest failed*****
+ 2020-11-25 01:45:51 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:45:51 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:45:51 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 01:46:02 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:46:02 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:46:02 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 01:46:13 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 01:46:13 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 01:46:13 INFO  TC_LoginDDT_002:66 - *******logintest passed*****
+ 2020-11-25 02:00:03 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-11-25 02:00:03 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-11-25 02:00:16 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 02:00:16 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 02:00:16 INFO  TC_LoginDDT_002:58 - *******logintest failed*****
+ 2020-11-25 02:00:20 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 02:00:20 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 02:00:20 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-25 02:00:24 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 02:00:24 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 02:00:24 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-25 02:00:29 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-25 02:00:29 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-25 02:00:29 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-27 20:44:36 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-27 20:44:36 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-27 20:44:36 INFO  TC_LoginDDT_002:58 - *******logintest failed*****
+ 2020-11-27 20:44:40 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-27 20:44:40 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-27 20:44:40 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-27 20:44:45 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-27 20:44:45 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-27 20:44:45 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-27 20:44:50 INFO  TC_LoginDDT_002:25 - ***Starting TC_Logintest_001***
+ 2020-11-27 20:44:50 INFO  TC_LoginDDT_002:30 - **Validating TC_Logintest_001***
+ 2020-11-27 20:44:50 INFO  TC_LoginDDT_002:65 - *******logintest passed*****
+ 2020-11-28 12:52:07 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 12:52:15 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 12:52:23 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 12:58:44 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 12:58:53 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 12:59:01 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 13:01:55 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:02:02 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:02:07 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 13:03:51 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:04:00 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:04:06 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 13:06:57 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:06:57 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:07:08 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:07:11 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:07:16 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 13:13:09 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:13:16 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:13:22 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 13:17:03 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 13:17:10 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 13:17:15 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 17:56:57 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 17:57:04 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 17:57:13 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 17:58:38 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 17:58:46 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 17:58:53 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:04:03 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:04:11 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:04:17 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:11:53 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:12:02 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:12:07 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:15:55 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:16:04 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:16:10 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:18:07 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:18:16 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:18:22 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:19:33 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:19:42 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:19:47 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 18:41:10 INFO  TC_AdnwCust_003:17 - ****logging info*****
+ 2020-11-28 18:41:18 INFO  TC_AdnwCust_003:26 - ***Entering customer Details*****
+ 2020-11-28 18:41:24 INFO  TC_AdnwCust_003:33 - ****Providing Customer details****
+ 2020-11-28 19:35:29 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-11-28 19:35:36 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-11-28 19:35:44 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-11-28 19:40:51 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-11-28 19:40:58 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-11-28 19:41:03 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-11-28 19:41:19 INFO  TC_AdnwCust_003:55 - ****validating*****
+ 2020-11-28 19:41:19 INFO  TC_AdnwCust_003:58 - ***Cust info saved sucessfully*****
+ 2020-11-29 11:27:24 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-11-29 11:27:32 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-11-29 11:27:38 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-11-29 11:27:53 INFO  TC_AdnwCust_003:55 - ****validating*****
+ 2020-11-29 11:27:53 INFO  TC_AdnwCust_003:58 - ***Cust info saved sucessfully*****
+ 2020-11-29 16:35:05 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-29 16:35:12 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-29 16:35:18 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-29 16:35:19 INFO  TC_CustmrSrchByEmail_004:38 - ***Validating Emailid***
+ 2020-11-29 16:35:19 ERROR TC_CustmrSrchByEmail_004:48 - ***not Verified customerid***
+ 2020-11-29 16:36:35 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-29 16:36:43 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-29 16:36:47 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-29 16:36:47 INFO  TC_CustmrSrchByEmail_004:38 - ***Validating Emailid***
+ 2020-11-29 16:36:47 INFO  TC_CustmrSrchByEmail_004:43 - ***Verified Customerid***
+ 2020-11-29 16:42:11 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-29 16:42:19 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-29 16:42:24 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-29 16:42:25 INFO  TC_CustmrSrchByEmail_004:38 - ***Validating Emailid***
+ 2020-11-29 16:42:25 INFO  TC_CustmrSrchByEmail_004:43 - ***Verified Customerid***
+ 2020-11-29 16:43:35 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-29 16:43:41 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-29 16:43:46 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-29 16:43:46 INFO  TC_CustmrSrchByEmail_004:38 - ***Validating Emailid***
+ 2020-11-29 16:43:46 ERROR TC_CustmrSrchByEmail_004:48 - ***not Verified customerid***
+ 2020-11-30 19:57:01 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 19:57:07 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 19:57:10 INFO  TC_SrchCustByName_005:30 - ***Entering Customer Data****
+ 2020-11-30 20:01:24 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:01:28 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:01:33 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:02:19 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:02:23 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:02:28 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:06:52 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:06:56 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:07:02 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:09:38 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:09:43 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:09:47 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:10:33 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-30 20:10:41 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-30 20:10:46 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-30 20:10:46 INFO  TC_CustmrSrchByEmail_004:38 - ***Validating Emailid***
+ 2020-11-30 20:10:46 INFO  TC_CustmrSrchByEmail_004:43 - ***Verified Customerid***
+ 2020-11-30 20:10:52 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:10:57 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:11:02 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:17:13 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:17:19 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:17:23 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 20:21:10 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 20:21:15 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 20:21:19 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 21:51:47 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-11-30 21:51:55 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-11-30 21:51:59 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-11-30 21:52:00 INFO  TC_CustmrSrchByEmail_004:40 - ***Validating Emailid***
+ 2020-11-30 21:52:00 INFO  TC_CustmrSrchByEmail_004:45 - ***Verified Customerid***
+ 2020-11-30 21:52:53 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 21:52:57 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 21:53:01 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:04:48 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:04:54 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:04:59 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:10:17 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:10:22 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:10:26 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:10:30 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-11-30 22:10:30 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-11-30 22:12:48 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:12:52 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:12:57 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:13:00 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-11-30 22:13:00 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-11-30 22:15:33 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:15:38 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:15:43 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:15:47 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-11-30 22:15:47 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-11-30 22:23:07 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:23:12 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:23:16 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:23:20 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-11-30 22:23:20 INFO  TC_SrchCustByName_005:44 - *****Valid data****
+ 2020-11-30 22:31:18 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-11-30 22:31:23 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-11-30 22:31:27 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-11-30 22:31:31 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-11-30 22:31:31 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-12-02 18:23:01 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 18:23:06 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 18:23:13 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 18:23:16 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 18:23:17 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-12-02 18:25:55 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 18:25:59 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 18:26:04 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 18:26:07 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 18:26:07 ERROR TC_SrchCustByName_005:49 - ****Invalid Data****
+ 2020-12-02 18:58:56 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 18:59:12 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 18:59:18 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 18:59:21 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 18:59:21 INFO  TC_SrchCustByName_005:44 - *****Valid data****
+ 2020-12-02 19:15:42 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-02 19:15:42 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-12-02 19:15:49 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-12-02 19:15:55 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-12-02 19:16:05 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-12-02 19:16:21 INFO  TC_AdnwCust_003:55 - ****validating*****
+ 2020-12-02 19:16:21 INFO  TC_AdnwCust_003:58 - ***Cust info saved sucessfully*****
+ 2020-12-02 19:16:27 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-12-02 19:16:33 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-12-02 19:16:37 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-12-02 19:16:38 INFO  TC_CustmrSrchByEmail_004:40 - ***Validating Emailid***
+ 2020-12-02 19:16:38 INFO  TC_CustmrSrchByEmail_004:45 - ***Verified Customerid***
+ 2020-12-02 19:16:44 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 19:16:49 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 19:16:54 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 19:16:57 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 19:16:57 INFO  TC_SrchCustByName_005:44 - *****Valid data****
+ 2020-12-02 19:27:05 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-02 19:27:05 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-12-02 19:27:12 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-12-02 19:27:21 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-12-02 19:27:27 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-12-02 19:27:42 INFO  TC_AdnwCust_003:55 - ****validating*****
+ 2020-12-02 19:27:42 INFO  TC_AdnwCust_003:58 - ***Cust info saved sucessfully*****
+ 2020-12-02 19:27:49 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-12-02 19:27:57 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-12-02 19:28:02 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-12-02 19:28:03 INFO  TC_CustmrSrchByEmail_004:40 - ***Validating Emailid***
+ 2020-12-02 19:28:03 INFO  TC_CustmrSrchByEmail_004:45 - ***Verified Customerid***
+ 2020-12-02 19:28:09 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 19:28:14 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 19:28:19 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 19:28:22 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 19:28:22 INFO  TC_SrchCustByName_005:44 - *****Valid data****
+ 2020-12-02 19:38:51 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-02 19:38:52 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-12-02 19:38:52 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-12-02 19:39:01 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-02 19:39:01 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-12-02 19:39:13 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-12-02 19:39:21 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-12-02 19:39:22 INFO  TC_CustmrSrchByEmail_004:40 - ***Validating Emailid***
+ 2020-12-02 19:39:22 INFO  TC_CustmrSrchByEmail_004:45 - ***Verified Customerid***
+ 2020-12-02 19:39:25 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-02 19:39:31 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-12-02 19:39:33 INFO  TC_SrchCustByName_005:31 - ***Entering Customer Data****
+ 2020-12-02 19:39:36 INFO  TC_SrchCustByName_005:39 - ***Validating Data****
+ 2020-12-02 19:39:36 INFO  TC_SrchCustByName_005:44 - *****Valid data****
+ 2020-12-03 00:12:48 INFO  TC_CustmrSrchByEmail_004:18 - ****logging info*****
+ 2020-12-03 00:12:49 INFO  TC_SrchCustByName_005:18 - ****Customer Login*****
+ 2020-12-03 00:12:49 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-12-03 00:12:57 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-03 00:12:57 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-12-03 00:13:11 INFO  TC_CustmrSrchByEmail_004:27 - ***Entering customer Details*****
+ 2020-12-03 00:13:19 INFO  TC_SrchCustByName_005:25 - ***Navigating to CustomerSearchPage****
+ 2020-12-03 00:13:19 INFO  TC_CustmrSrchByEmail_004:33 - ***Searching customer by emailid***
+ 2020-12-03 00:13:20 INFO  TC_CustmrSrchByEmail_004:40 - ***Validating Emailid***
+ 2020-12-03 00:13:20 INFO  TC_CustmrSrchByEmail_004:45 - ***Verified Customerid***
+ 2020-12-03 00:13:22 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-12-03 00:18:58 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-03 00:18:58 ERROR TC_Logintest_001:37 - ***test case failed***
+ 2020-12-03 00:30:18 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-03 00:30:18 INFO  TC_Logintest_001:31 - *** Test case is success***
+ 2020-12-03 00:35:02 INFO  TC_AdnwCust_003:19 - ****logging info*****
+ 2020-12-03 00:35:13 INFO  TC_AdnwCust_003:28 - ***Entering customer Details*****
+ 2020-12-03 00:35:15 INFO  TC_Logintest_001:25 - ***validating TC_Logintest_001***
+ 2020-12-03 00:35:15 INFO  TC_Logintest_001:31 - *** Test case is success***
+ 2020-12-03 00:35:23 INFO  TC_AdnwCust_003:35 - ****Providing Customer details****
+ 2020-12-03 00:35:37 INFO  TC_AdnwCust_003:55 - ****validating*****
+ 2020-12-03 00:35:37 INFO  TC_AdnwCust_003:58 - ***Cust info saved sucessfully*****
+ 

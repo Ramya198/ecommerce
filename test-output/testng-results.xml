@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ecommercesuite" duration-ms="61184" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:39:41Z">
+    <groups>
+    </groups>
+    <test name="TC_Logintest_001" duration-ms="22638" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:39:03Z">
+      <class name="com.ecommerce.testcases.TC_Logintest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@396f6598]" name="setup" is-config="true" duration-ms="10008" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="logintest()[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@396f6598]" name="logintest" duration-ms="11329" started-at="2020-12-03T00:38:50Z" finished-at="2020-12-03T00:39:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.ecommerce.testcases.TC_Logintest_001.logintest(TC_Logintest_001.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@396f6598]" name="teardown" is-config="true" duration-ms="1028" started-at="2020-12-03T00:39:02Z" finished-at="2020-12-03T00:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_Logintest_001 -->
+    </test> <!-- TC_Logintest_001 -->
+    <test name="TC_CustmrSrchByEmail_004" duration-ms="43124" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:39:23Z">
+      <class name="com.ecommerce.testcases.TC_CustmrSrchByEmail_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_CustmrSrchByEmail_004@76b0bfab]" name="setup" is-config="true" duration-ms="11519" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SrchCustmrByEmail()[pri:0, instance:com.ecommerce.testcases.TC_CustmrSrchByEmail_004@76b0bfab]" name="SrchCustmrByEmail" duration-ms="30719" started-at="2020-12-03T00:38:52Z" finished-at="2020-12-03T00:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SrchCustmrByEmail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_CustmrSrchByEmail_004@76b0bfab]" name="teardown" is-config="true" duration-ms="778" started-at="2020-12-03T00:39:22Z" finished-at="2020-12-03T00:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_CustmrSrchByEmail_004 -->
+    </test> <!-- TC_CustmrSrchByEmail_004 -->
+    <test name="TC_SrchCustByName_005" duration-ms="56042" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:39:36Z">
+      <class name="com.ecommerce.testcases.TC_SrchCustByName_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_SrchCustByName_005@69a3d1d]" name="setup" is-config="true" duration-ms="10878" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="srchcustomerbyname()[pri:0, instance:com.ecommerce.testcases.TC_SrchCustByName_005@69a3d1d]" name="srchcustomerbyname" duration-ms="44725" started-at="2020-12-03T00:38:51Z" finished-at="2020-12-03T00:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- srchcustomerbyname -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_SrchCustByName_005@69a3d1d]" name="teardown" is-config="true" duration-ms="341" started-at="2020-12-03T00:39:36Z" finished-at="2020-12-03T00:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_SrchCustByName_005 -->
+    </test> <!-- TC_SrchCustByName_005 -->
+    <test name="TC_AdnwCust_003" duration-ms="61184" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:39:41Z">
+      <class name="com.ecommerce.testcases.TC_AdnwCust_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@ea1a8d5]" name="setup" is-config="true" duration-ms="11542" started-at="2020-12-03T00:38:40Z" finished-at="2020-12-03T00:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="addnewCust()[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@ea1a8d5]" name="addnewCust" duration-ms="49307" started-at="2020-12-03T00:38:52Z" finished-at="2020-12-03T00:39:41Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-BFUTEFC0', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\prasa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a53496f965fd3c0c056b52d07dcb6a21]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-BFUTEFC0', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\prasa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a53496f965fd3c0c056b52d07dcb6a21
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at com.ecommerce.pageObjects.AdnwCustmr.lnkCustmr1(AdnwCustmr.java:102)
+at com.ecommerce.testcases.TC_AdnwCust_003.addnewCust(TC_AdnwCust_003.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewCust -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@ea1a8d5]" name="teardown" is-config="true" duration-ms="234" started-at="2020-12-03T00:39:41Z" finished-at="2020-12-03T00:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_AdnwCust_003 -->
+    </test> <!-- TC_AdnwCust_003 -->
+  </suite> <!-- ecommercesuite -->
+</testng-results>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "ecommercesuite" thread-count="5" parallel="tests">
+ 
+  <listeners>     
+     <listener class-name = "com.ecommerce.utilities.ExtendReportManager"/>     
+  </listeners>
+   
+   <parameter name = "browser" value = "chrome"/>
+  <!-- <parameter name = "browser" value = "firefox"/>
+     <parameter name = "browser" value = "ie"/>-->
+   
+
+  <test name = "TC_Logintest_001">
+     <classes> 
+      <class name = "com.ecommerce.testcases.TC_Logintest_001"/>
+         </classes>  
+   </test>
+  
+ <!-- <test name = "TC_LoginDDT_002">
+     <classes> 
+      <class name = "com.ecommerce.testcases.TC_LoginDDT_002"/>
+         </classes>  
+   </test> -->
+   
+ <test name = "TC_AdnwCust_003">
+     <classes> 
+      <class name = "com.ecommerce.testcases.TC_AdnwCust_003"/>
+         </classes>  
+   </test>
+   
+  <!--<test name = "TC_CustmrSrchByEmail_004">
+     <classes> 
+      <class name = "com.ecommerce.testcases.TC_CustmrSrchByEmail_004"/>
+         </classes>  
+   </test>-->
+   
+   <!--<test name = "TC_SrchCustByName_005">
+     <classes> 
+      <class name = "com.ecommerce.testcases.TC_SrchCustByName_005"/>
+         </classes>  
+   </test>-->
+ 
+</suite>

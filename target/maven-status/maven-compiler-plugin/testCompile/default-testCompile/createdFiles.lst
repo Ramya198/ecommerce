@@ -1,0 +1,12 @@
+com\ecommerce\testcases\TC_LoginDDT_002.class
+com\ecommerce\pageObjects\Loginpage.class
+com\ecommerce\utilities\ExtendReportManager.class
+com\ecommerce\testbase\Testbase.class
+com\ecommerce\testcases\TC_SrchCustByName_005.class
+com\ecommerce\utilities\XLUtils.class
+com\ecommerce\pageObjects\SrchCustByName.class
+com\ecommerce\testcases\TC_AdnwCust_003.class
+com\ecommerce\testcases\TC_Logintest_001.class
+com\ecommerce\pageObjects\CustmrEmlsrch.class
+com\ecommerce\pageObjects\AdnwCustmr.class
+com\ecommerce\testcases\TC_CustmrSrchByEmail_004.class

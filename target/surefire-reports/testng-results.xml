@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ecommercesuite" duration-ms="44927" started-at="2020-12-05T18:35:52Z" finished-at="2020-12-05T18:36:37Z">
+    <groups>
+    </groups>
+    <test name="TC_Logintest_001" duration-ms="18887" started-at="2020-12-05T18:35:52Z" finished-at="2020-12-05T18:36:11Z">
+      <class name="com.ecommerce.testcases.TC_Logintest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@f6c48ac]" name="setup" is-config="true" duration-ms="7614" started-at="2020-12-05T18:35:52Z" finished-at="2020-12-05T18:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@f6c48ac]" name="logintest" duration-ms="10191" started-at="2020-12-05T18:36:00Z" finished-at="2020-12-05T18:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_Logintest_001@f6c48ac]" name="teardown" is-config="true" duration-ms="857" started-at="2020-12-05T18:36:10Z" finished-at="2020-12-05T18:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_Logintest_001 -->
+    </test> <!-- TC_Logintest_001 -->
+    <test name="TC_AdnwCust_003" duration-ms="44927" started-at="2020-12-05T18:35:52Z" finished-at="2020-12-05T18:36:37Z">
+      <class name="com.ecommerce.testcases.TC_AdnwCust_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@6e1567f1]" name="setup" is-config="true" duration-ms="7721" started-at="2020-12-05T18:35:52Z" finished-at="2020-12-05T18:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addnewCust()[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@6e1567f1]" name="addnewCust" duration-ms="36838" started-at="2020-12-05T18:36:00Z" finished-at="2020-12-05T18:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewCust -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecommerce.testcases.TC_AdnwCust_003@6e1567f1]" name="teardown" is-config="true" duration-ms="204" started-at="2020-12-05T18:36:37Z" finished-at="2020-12-05T18:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.testcases.TC_AdnwCust_003 -->
+    </test> <!-- TC_AdnwCust_003 -->
+  </suite> <!-- ecommercesuite -->
+</testng-results>
